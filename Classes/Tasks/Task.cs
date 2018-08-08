@@ -56,7 +56,8 @@ namespace BagTracker.Classes.Tasks
         {
             this.Name = name;
             this.Complexity = complexity;
-            _iterationCounter = _complexity * Prioriti;
+            this.Prioriti = 1;
+            _iterationCounter = _complexity * _priority;
         }
 
 
